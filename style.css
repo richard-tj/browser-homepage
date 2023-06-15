@@ -1,0 +1,118 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    
+}
+
+/* tab area */
+
+.tab-class {
+    width: 10em;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#closeid {
+    background: none;
+    border: none;
+} 
+
+
+#add-tab {
+    margin-left: 13px;
+    background: none;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.tab-container {
+    border: 1px solid;
+    /*border-radius: 6px;*/
+    width: 100%;
+    
+}
+
+/* end of tab area */
+
+/* address bar */
+
+.address-bar {
+    height: 30px;
+    border: 1px solid;
+    width: 100%;
+}
+
+#url-bar {
+    border-radius: 6px;
+    height: 20px;
+    width: 100em;
+}
+
+.back-page,
+.forward-page,
+.refresh-page {
+    font-size: 15px;
+    background: none;
+    border: none;
+}
+
+/* end of address bar */
+
+.logo {
+    font-size: 50px;;
+}
+
+#second-url-bar {
+    border-radius: 6px;
+    height: 20px;
+    width: 40em;
+}
+
+input::placeholder {
+    opacity: 0.9;
+    color: gray;
+}
+
+.sub-body {
+    background-image: url(img/meadow-one.jpeg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* END OF BASE STYLES */
+
+.tab-container {
+    display: flex;
+}
+
+.tab-class {
+    display: flex;
+    justify-content: space-between;
+}
+
+.address-bar {
+    display: flex;
+    align-items: center;
+}
+
+.sub-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    /*padding-top: 5.25em;*/
+    height: 100%;
+} 
+
+.box {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+

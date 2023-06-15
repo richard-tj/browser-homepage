@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <div class="box">
+    <div class="tab-container">
+        <div class="tab-class" id="tab">New Tab
+         <div><button class="close-tab" id="closeid" type="button">X</button></div>
+    </div>
+    <button id="add-tab" type="button">+</button> <!-- changed from class to id -->
+    </div>
+    <div class="address-bar">
+        <button class="back-page" type="button">←</button>
+        <button class="forward-page" type="button">→</button>
+        <button class="refresh-page" type="button">↻</button>
+        <form>
+            <label for="url-bar"></label>
+            <input type="text" id="url-bar" name="url-bar">
+        </form>
+    </div>
+    <div class="sub-body">
+        <h1 class="logo">Beehop</h1>
+        <form>
+            <label for="second-url-bar"></label>
+            <input type="text" id="second-url-bar" name="second-url-bar" placeholder="Search Beehop or type a URL">
+        </form>  
+    </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
